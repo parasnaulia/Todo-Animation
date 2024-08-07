@@ -59,10 +59,11 @@
   }
   
   .first1 {
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Roboto';
     font-size: 1.1rem;
     color: black;
+
   }
   
   .second {
