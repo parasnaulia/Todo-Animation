@@ -87,10 +87,10 @@ const Animation1 = () => {
         <div className={styles.mainInner} id="animation">
           <div className={styles.mainInner1} style={{ height: '1000px',  }}>
             <div className={styles.complex}>
-              {div1==1&&<img src="../public/P1.png" height={350} width={350}/>}
-              {div1==2&&<img src="../public/P2.png" height={350} width={350}/>}
-              {div1==3&&<img src="../public/P3.png" height={350} width={350}/>}
-              {div1==4&&<img src="../public/P4.png" height={350} width={350}/>}
+              {div1==1&&<img src="../P1.png" height={350} width={350}/>}
+              {div1==2&&<img src="../P2.png" height={350} width={350}/>}
+              {div1==3&&<img src="../P3.png" height={350} width={350}/>}
+              {div1==4&&<img src="../P4.png" height={350} width={350}/>}
             </div>
             <div className={styles.complex}>
               <div className={styles.complexInner}> 
