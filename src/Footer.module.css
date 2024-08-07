@@ -1,0 +1,57 @@
+.container
+{
+    display: grid;
+grid-template-columns: 3fr 2fr 2fr 2fr 1fr;
+background-color: rgb(174,201,145);
+border-top: 1px solid rgb(153, 146, 146);
+padding: 2rem;
+gap:1rem;
+}
+.inner
+{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(103, 101, 101);
+
+}
+.icon
+{
+    display: flex;
+    gap:1rem;
+}
+.logo
+{
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.icon1
+{
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(103, 101, 101);
+
+}
+.pp
+
+{
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(32, 31, 31);
+
+}
+.social
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}

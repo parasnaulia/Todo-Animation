@@ -1,0 +1,46 @@
+/* ScrollComponent.module.css */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .left, .right {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .middle {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .line {
+    width: 4px;
+    height: 100%;
+    background-color: #ddd;
+    position: relative;
+  }
+  
+  .fill {
+    width: 100%;
+    height: 33.33%;
+    background-color: red;
+  }
+  
+  .fill:nth-child(2) {
+    background-color: orange;
+  }
+  
+  .fill:nth-child(3) {
+    background-color: green;
+  }
+  

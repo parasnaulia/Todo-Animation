@@ -1,0 +1,49 @@
+.container
+{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner
+{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10rem;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    width: 90%;
+
+}
+.div
+{
+    border-right: 1px solid grey;
+    padding: 1rem;
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 180px;
+    text-align: center;
+
+}
+.veg
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: grey;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.veg1
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: grey;
+    margin-top: 5rem;
+    font-size: 1rem;
+
+}

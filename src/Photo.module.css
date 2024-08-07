@@ -1,0 +1,24 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    
+   
+  
+}
+.inner
+{
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 90vw;
+    background-color: rgb(174,201,145); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img
+{
+    /* margin-top: 20rem; */
+}

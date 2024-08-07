@@ -1,0 +1,146 @@
+.container {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap:2rem;
+    /* flex-wrap: wrap;
+} */
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 2.5rem;
+    font-weight: bolder;
+    width: 75%;
+    text-align: center;
+}
+
+.verge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.vergeInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDiv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(185, 177, 177);
+    padding: 0.5rem;
+    font-family: "Roboto";
+    border-radius: 1rem;
+    font-weight: 500;
+    color: gray;
+    /* margin-top: 4rem; */
+
+}
+
+.mainInner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* gap: 30vw; */
+    margin-top: 1.5rem;
+    overflow: scroll;
+    height: 70vh;
+    position: sticky;
+    overflow: hidden;
+    /* width: 80vw; */
+    z-index: -1;
+}
+
+/* Hide scrollbar for Webkit browsers */
+.mainInner::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit-based browsers (Chrome, Safari, etc.) */
+}
+
+/* Hide scrollbar for other browsers */
+.mainInner {
+    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.mainInner1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+    overflow: hidden;
+
+}
+
+.complex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.complexInner {
+    background-color: rgb(68, 65, 65);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 15px;
+    height: 50vh;
+}
+
+.complexChild {
+    background-color: rgb(174,201,145);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 4.8rem;
+    transition: height 0.5s ease;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Roboto';
+    color: grey;
+    gap: 1rem;
+}

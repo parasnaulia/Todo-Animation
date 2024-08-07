@@ -1,0 +1,74 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: rgb(174,201,145);
+    /* border-radius: 1rem; */
+    padding: 4rem;
+    /* width: 100vw; */
+}
+.inner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 70%;
+    gap:3rem;
+
+}
+.h1
+{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 2.5rem;
+
+
+}
+.h2
+{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: grey;
+
+
+}
+
+.btn
+{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+.btn2
+{
+
+  
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 1rem;
+  
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #131212;
+    width: 100vw;
+    margin: 2rem 0;
+    width: 100%; /* Ensure it takes the full width */
+  }
