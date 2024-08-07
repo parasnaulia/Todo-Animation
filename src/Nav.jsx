@@ -9,7 +9,7 @@ const Nav = () => {
     <div className={styles.container}>
         <div className={styles.div1}>
             <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbztuP53nLYKdOZfqOLPRU0TqrKT_sGCo-vg&s" height={50} width={100}/></div>
-            <div className={styles.pp}><h3>TodoList </h3></div>
+            <div className={styles.pp}><h3>TaskEasy </h3></div>
             </div>
 
         <div className={styles.div2}>
