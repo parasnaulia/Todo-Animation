@@ -26,12 +26,12 @@ const Animation1 = () => {
     }
   else if(document.documentElement.scrollTop>=2300&&document.documentElement.scrollTop<2500 )
       {
-       setWw(35.5);
+       setWw(33.5);
        setDiv1(2);
       }
      else if(document.documentElement.scrollTop>=2500&&document.documentElement.scrollTop<2590 )
         {
-         setWw(66.9);
+         setWw(62.9);
          setDiv1(3);
         }
        else if(document.documentElement.scrollTop>=2590)
