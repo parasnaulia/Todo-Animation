@@ -16,6 +16,7 @@
     text-align: center;
     flex-direction: column;
     gap: 3rem;
+    /* padding: 1rem; */
 }
 .innerH1
 {
@@ -34,15 +35,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 
 }
 .div2
 {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* justify-content: space-around; */
     align-items: center;
-    gap: 4rem;
-    flex-wrap: wrap;
+    gap: 1rem;
+    /* padding: 1rem; */
+    /* flex-wrap: wrap; */
 }
 .div2O
 {

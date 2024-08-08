@@ -1,7 +1,7 @@
 .container
 {
     display: grid;
-    grid-template-columns: 4fr 3fr;
+    grid-template-columns: 1fr 2fr;
     font-family: 'Roboto';
     margin-top: 1rem;
     /* height: 20px; */
@@ -73,11 +73,10 @@
 .hoverInner
 {
     display: flex;
-    padding: 0.3rem;
     transition: border-radius 0.3s ease;
     /* gap:0.2rem; */
 }
 .hoverInner:hover{
-    background-color:rgb(208, 217, 208);
-    border-radius: 6px;
+    background-color:rgb(183, 191, 183);
+    border-radius: 4px;
 }
