@@ -26,12 +26,12 @@ const Animation1 = () => {
     }
   else if(document.documentElement.scrollTop>=2300&&document.documentElement.scrollTop<2500 )
       {
-       setWw(33.5);
+       setWw(35.5);
        setDiv1(2);
       }
      else if(document.documentElement.scrollTop>=2500&&document.documentElement.scrollTop<2590 )
         {
-         setWw(62.9);
+         setWw(66.9);
          setDiv1(3);
         }
        else if(document.documentElement.scrollTop>=2590)
@@ -96,7 +96,7 @@ const Animation1 = () => {
               <div className={styles.complexInner}> 
                 <div className={styles.complexChild} style={{height:`${ww}%`}} >
                 <div> <IoIosCheckmarkCircleOutline style={{ textAlign:"center",fontWeight:"bold"}} /> </div>
-                <div><IoIosCheckmarkCircleOutline  /></div>
+                <div><IoIosCheckmarkCircleOutline /></div>
                 <div><IoIosCheckmarkCircleOutline /></div>
                 <div><IoIosCheckmarkCircleOutline /></div>
                 </div><IoIosCheckmarkCircleOutline /></div>
