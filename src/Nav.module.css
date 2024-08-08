@@ -10,6 +10,7 @@
     background-color:rgb(174,201,145);
     /* border: 1px solid black; */
 }
+
 .div1
 {
     display: flex;
@@ -77,4 +78,55 @@
 }
 .hoverInner:hover{
     background-color:rgb(183, 191, 183);;
+}
+.ham
+{
+    display: none;
+}
+
+.img
+{
+    height: 60px;
+    width:100px ;
+}
+
+@media (max-width: 1100px) {
+    .container{
+        width: 100vw;
+        font-size: 1rem;
+        height: auto;
+    }
+    .div2
+    {
+        /* display: none;
+        bac */
+        /* background-color: blue;
+         */
+         display: none;
+         width: 100%;
+         justify-content: space-between;
+  
+    }
+    .ham
+    {
+        display: block;
+     
+        color: black;
+        float: right;
+        /* background-color: blue; */
+    }
+    .hamC
+    {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.5rem;
+        font-family: 'Roboto';
+
+    }
+    .img
+{
+    height: 30px;
+    width:60px ;
+}
 }

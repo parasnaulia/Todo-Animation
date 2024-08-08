@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import styles from "./Nav.module.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { MdOutlineAddBusiness } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Nav = () => {
    const [tog,setTog]= useState(false)
   return (
     <div className={styles.container}>
         <div className={styles.div1}>
-            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbztuP53nLYKdOZfqOLPRU0TqrKT_sGCo-vg&s" height={60} width={100}/></div>
+            <div><img className={styles.img} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbztuP53nLYKdOZfqOLPRU0TqrKT_sGCo-vg&s"/></div>
             <div className={styles.pp}><h3>TaskEasy </h3></div>
             </div>
 
@@ -47,8 +48,14 @@ const Nav = () => {
             </div>
             <div>Pricing</div>
             <div>Login</div>
+           
             <div><button className={styles.btn2}>Start For Free</button></div>
         </div>
+        <div className={styles.hamC}>
+        <div className={styles.ham}><GiHamburgerMenu/></div>
+
+        </div>
+        
     </div>
   )
 }
