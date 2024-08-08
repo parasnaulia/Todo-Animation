@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto';
     flex-wrap: wrap;
     /* font-family: "playfair display"; */
 }
@@ -17,31 +16,37 @@
     gap:8rem;
     font-family: 'Roboto';
     font-weight: bold;
-    font-size: 1.4rem;
-    width: 90%;
-    flex-wrap: wrap;
+    font-size: 1rem;
+    /* width: 90%; */
+    /* flex-wrap: wrap; */
 
 }
 .div
 {
     border-right: 1px solid grey;
-    padding: 1rem;
+    padding: 1.5rem;
     /* border: 1px solid black; */
     height: 100px;
-    width: 160px;
+    width: 180px;
     text-align: center;
-    font-family: 'Roboto';
-    font-size: 1rem;
+    font-family: "Cormorant Garamond", serif;
+    /* font-weight: bold; */
+    font-size: 1.3rem;
+
 
 }
 .veg
 {
-    font-family: 'Roboto';
+    /* font-family: "Bebas Neue", sans-serif; */
     font-weight: 400;
     font-style: normal;
-    color: grey;
+    color: rgb(140, 137, 137);
     margin-top: 3rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
 }
 
 .veg1
@@ -52,16 +57,7 @@
     color: grey;
     margin-top: 5rem;
     font-size: 1rem;
-
-}
-
-@media (max-width: 1100px)
-{
-    .div
-    {
-        width: 90%;
-
-    }
+    font-family: "Cormorant Garamond", serif;
 
 }
 

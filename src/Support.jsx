@@ -5,7 +5,7 @@ const Support = () => {
     <div className={styles.container}>
         <div className={styles.inner}>
             <div className={styles.div}>"Simple, straightforward,
-            and super powerful” <div className={styles.veg}>VERGE</div></div>
+            and super powerful” <div className={styles.veg}>The VERGE</div></div>
             <div className={styles.div}>“Simply a joy to use and Have Fun”  <div className={styles.veg}>WIRECUTTER</div></div>
             <div className={styles.div}>“The best to-do list app
             on the market”  <div className={styles.veg}>PC<br/>MAC</div></div>

@@ -63,6 +63,7 @@
     font-family: 'Roboto';
     font-size: 1.1rem;
     color: black;
+    color: rgb(124, 136, 29);;
 
   }
   
@@ -79,18 +80,19 @@
     font-size: 1.3rem;
     font-weight: bolder;
     color: grey;
+    /* cursor: pointer; */
   }
   
   .third1 {
     margin-top: 1rem;
+    /* display: inline; */
     font-family: 'Roboto';
-    font-size: 1.3rem;
-    font-weight: bolder;
-    color: rgb(62, 65, 62);
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(68, 117, 243);
+    cursor: pointer;
   }
-
-
-
+ 
   
 
 
