@@ -96,7 +96,7 @@ const Animation1 = () => {
               <div className={styles.complexInner}> 
                 <div className={styles.complexChild} style={{height:`${ww}%`}} >
                 <div> <IoIosCheckmarkCircleOutline style={{ textAlign:"center",fontWeight:"bold"}} /> </div>
-                <div><IoIosCheckmarkCircleOutline /></div>
+                <div><IoIosCheckmarkCircleOutline  /></div>
                 <div><IoIosCheckmarkCircleOutline /></div>
                 <div><IoIosCheckmarkCircleOutline /></div>
                 </div><IoIosCheckmarkCircleOutline /></div>
