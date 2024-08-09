@@ -19,22 +19,22 @@ const Animation1 = () => {
     // console.log("Event is fired");
   
 
-    if(document.documentElement.scrollTop<=2300)
+    if(document.documentElement.scrollTop<=2000)
     {
      setWw(0);
      setDiv1(1);
     }
-  else if(document.documentElement.scrollTop>=2300&&document.documentElement.scrollTop<2500 )
+  else if(document.documentElement.scrollTop>=2000&&document.documentElement.scrollTop<2260 )
       {
-       setWw(35.5);
+       setWw(39);
        setDiv1(2);
       }
-     else if(document.documentElement.scrollTop>=2500&&document.documentElement.scrollTop<2590 )
+     else if(document.documentElement.scrollTop>=2260&&document.documentElement.scrollTop<2360 )
         {
-         setWw(66.9);
+         setWw(73);
          setDiv1(3);
         }
-       else if(document.documentElement.scrollTop>=2590)
+       else if(document.documentElement.scrollTop>=2360)
           {
            setWw(100);
            setDiv1(4);
