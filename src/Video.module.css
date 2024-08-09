@@ -1,0 +1,25 @@
+/* src/components/VideoPlayer.css */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: ; */
+   
+   /* Full viewport height */
+  }
+  
+  .video-player {
+    /* max-width: 100%; */
+    /* height: auto; */
+    height: 10vh;
+    width: 10vw;
+  }
+  
+  .image-display {
+    /* max-width: 100%; */
+    /* height: auto; */
+    height: 10vh;
+    width: 10vw;
+  }
+  

@@ -1,8 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Nav from './Nav'
+import React from 'react'
 import Content from './Content'
 import Photo from './Photo'
 import Support from './Support'
@@ -12,19 +8,24 @@ import Toolkit from './Toolkit'
 import Manager from './Manager'
 import Download from './Download'
 import Footer from './Footer'
-import { Outlet } from 'react-router-dom'
+import Nav from './Nav'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const MainContent = () => {
   return (
-   <>
-  
-   <Outlet/>
-  
-   
-   </>
+    
+    <>
+     <Nav/>
+     <Content/>
+   <Photo/>
+   <Support/>
+   <FixedLayout/>
+   <Animation1/>
+   <Toolkit/>
+   <Manager/>
+   <Download/>
+   <Footer/>
+    </>
   )
 }
 
-export default App
+export default MainContent

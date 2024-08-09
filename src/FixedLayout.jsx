@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from "./FixedLayout.module.css";
-import { FaDownload } from "react-icons/fa";
+
 
 const FixedLayout = () => {
   const [scrollView, setScrollView] = useState(0);
