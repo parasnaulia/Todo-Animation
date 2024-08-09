@@ -51,6 +51,7 @@
     border-radius: 5px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 .hoverData
 {

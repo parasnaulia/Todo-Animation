@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import styles from "./Nav.module.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { MdOutlineAddBusiness } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
 
 const Nav = () => {
-   const [tog,setTog]= useState(false)
+   const [tog,setTog]= useState(false);
+  const navigate=useNavigate()
   return (
     <div className={styles.container}>
         <div className={styles.div1}>
@@ -47,7 +49,10 @@ const Nav = () => {
             </div>
             <div>Pricing</div>
             <div>Login</div>
-            <div><button className={styles.btn2}>Start For Free</button></div>
+            <div><button className={styles.btn2} onClick={()=>{
+                navigate("login")
+
+            }}>Start For Free</button></div>
         </div>
     </div>
   )
