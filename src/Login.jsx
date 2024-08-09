@@ -36,7 +36,7 @@ const Login = () => {
           <div><Input data1="Email" data2="Enter Your email...."/></div>
           <div><PassWord/></div>
           <div className={styles.btnC}><button className={styles.btn} onClick={()=>{console.log("HEllo")}}>Sign Up with Email</button></div>
-          <div>By continuing with Google, Apple, or Email, you agree to Todoist’s Terms of Service and Privacy Policy.</div>
+          <div className={styles.continue}>By continuing with Google, Apple, or Email, you agree to Todoist’s Terms of Service and Privacy Policy.</div>
         </div>
         <div className={styles.already}><div>Already signed up? Go to login</div></div>
 
