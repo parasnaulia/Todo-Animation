@@ -5,7 +5,7 @@ const Toolkit = () => {
   return (
     <div className={styles.container}>
         <div className={styles.inner}>
-            <div className={styles.innerH1}>Explore all Todoist has to offer</div>
+            <div className={styles.innerH1}>Explore all TaskEasy has to offer</div>
             <div className={styles.div1O}>
             <div className={styles.div2}>
                 <div className={styles.div2O}>

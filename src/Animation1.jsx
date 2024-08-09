@@ -74,7 +74,7 @@ const Animation1 = () => {
     <div className={styles.container}  >
       <div className={styles.inner} >
         <div className={styles.innerh1} >
-          “Todoist makes it easy to go as simple or as complex as you want”
+          “TaskEasy makes it easy to go as simple or as complex as you want”
         </div>
       </div>
       <div className={styles.verge}>
