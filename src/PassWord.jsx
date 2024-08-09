@@ -21,7 +21,7 @@ const PassWord = () => {
             </div>
             <div className={styles.eye}>
                 <div>
-                <input className={styles.input} placeholder="Enter Your Password" type="password"/>
+                <input className={styles.input} placeholder="Enter Your Password..." type={show===true?"text":"password"}/>
 
                 </div>
                 <div className={styles.inner} onClick={()=>{setShow(!show)}}>
